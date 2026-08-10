@@ -5,6 +5,16 @@ export interface CVEntry {
   text: string;
 }
 
+export interface ExhibitionEntry {
+  slug: string;
+  title: string;
+  type: string;
+  venue: string;
+  dates: string;
+  text: string[];
+  images: string[];
+}
+
 export interface Artist {
   name: string;
   location: string;
@@ -105,6 +115,24 @@ export const ARTIST: Artist = {
   ],
 };
 
+export const EXHIBITIONS: ExhibitionEntry[] = [
+  {
+    slug: "you-know-everything-everything-know-you",
+    title: "You Know Everything, Everything Know You",
+    type: "Duo Exhibition",
+    venue: "The Jam Factory, Bangkok, Thailand",
+    dates: "Feb 18 – Mar 27, 2016",
+    text: [
+      "An Art Exhibition by Jimmie James - Pichakorn Chukiew (tua pen not)",
+      "Inside of each one of us is a wonderful place.",
+      "The beginning of our lives we do know everything, maybe we don't know it's name or its function but we know it, and we do know it knows us too.",
+      "It's a different kind of knowing, like when you love someone and they love you. There's a connection Through the heart.",
+      "It can happen with abstract painting, this knowing of the heart. To come from the inside back to the world of wonder, and the connection to the hearts of others.",
+    ],
+    images: ["/you-know-everything-1.jpg", "/you-know-everything-2.jpg"],
+  },
+];
+
 export const SERIES_ORDER: SeriesName[] = ["Silence", "Interval", "Aperture"];
 
 export const MEDIUM_BY_SERIES: Record<SeriesName, string> = {
@@ -164,7 +192,7 @@ export const WORKS: Work[] = RAW_WORKS.map((w, i) => ({
     "A continuation of the studio's long-running inquiry into stillness and duration, made over several months of returning to the same surface until the image resolved into something the artist no longer felt she had authored alone.",
 }));
 
-export const EXHIBITION_WORK_IDS = [1, 6, 9];
+export const EXHIBITION_WORK_IDS = [13, 14];
 export const CATEGORIES = ["All", "Painting", "Sculpture", "Drawing"];
 
 export function getWorkById(id: number): Work | undefined {
