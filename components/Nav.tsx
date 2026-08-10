@@ -9,7 +9,7 @@ const LINKS = [
   { key: "home", label: "Home", href: "/" },
   { key: "work", label: "Work", href: "/work" },
   { key: "cv", label: "CV Profile", href: "/cv" },
-  { key: "exhibition", label: "Exhibition", href: "/#exhibition" },
+  { key: "exhibition", label: "Exhibition", href: "/exhibition" },
   { key: "contact", label: "Contact", href: "/contact" },
 ];
 
