@@ -625,13 +625,8 @@
   border-top: 1px solid var(--border);
   text-align: center;
 }
-.statement-text {
-  font-family: var(--font-fraunces), serif;
-  font-size: 1.4rem;
-  line-height: 1.6;
-  font-style: italic;
-  color: var(--text-primary);
-}
+.statement-text { color: var(--text-secondary); font-size: 1.05rem; line-height: 1.8; }
+
 
 /* Contact */
 .contact-page {
