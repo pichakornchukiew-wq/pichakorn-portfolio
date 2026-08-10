@@ -815,3 +815,53 @@ textarea:focus-visible {
   font-size: 0.95rem;
   margin: 0;
 }
+.exhibition-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 2rem 6rem;
+}
+.exhibition-entry {
+  margin-top: 4.5rem;
+  padding-top: 3rem;
+  border-top: 1px solid var(--border);
+}
+.exhibition-entry-type {
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+}
+.exhibition-entry-title {
+  font-size: clamp(1.5rem, 3vw, 2.1rem);
+  margin-bottom: 0.5rem;
+}
+.exhibition-entry-meta {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+}
+.exhibition-entry-images {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+@media (min-width: 700px) {
+  .exhibition-entry-images {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.exhibition-entry-image {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+.exhibition-entry-text {
+  max-width: 640px;
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+.exhibition-entry-text p {
+  margin-bottom: 1.1rem;
+}
