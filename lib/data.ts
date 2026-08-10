@@ -24,17 +24,18 @@ export interface Work {
 
 export const ARTIST: Artist = {
   name: "Pichakorn Chukiew Tuapennot",
-  location: "Copenhagen, Denmark",
-  email: "studio@pichakornchukiew.com",
-  instagram: "@pichakorn.chukiew",
+  location: "Chiang Mai, Thailand",
+  email: "pichakornchukiew@gmail.com",
+  instagram: "@tuapennot",
   bio: [
-    "Pichakorn Chukiew Tuapennot (b. 1985) is a Copenhagen-based artist working across painting, sculpture, and drawing. Her practice examines the quiet architecture of memory — the way a room, a gesture, or a beam of light continues to exist after the moment that produced it has passed.",
-    "Trained at the Royal Danish Academy of Fine Arts, Tuapennot spent the early years of her career assisting in bronze foundries across Northern Europe before returning to a studio practice of her own in 2014. Her work has since been exhibited in Copenhagen, Berlin, and Oslo, and is held in several private collections.",
-    "She currently lives and works from a converted warehouse studio in Refshaleøen, Copenhagen.",
+    "Pichakorn Chukiew — known professionally as tuapennot — is a multidisciplinary artist working across painting, installation, sculpture, mixed media, found-object art, and street art. His practice investigates how value is constructed, transformed, and reimagined through artistic intervention.",
+    "He holds a Bachelor of Fine Art from Chiang Mai University (2006–2010) and has since exhibited extensively across Thailand, Japan, Taiwan, Spain, Indonesia, Denmark, and China, including solo exhibitions in Bangkok, Chiang Mai, Hua Hin, Shanghai, and Tokyo.",
+    "His work has extended into collaborations with fashion, hospitality, and music brands, and he served as an artist in residence in Taiwan in 2016. He is based in Chiang Mai, Thailand.",
   ],
   statement:
-    "I am interested in what remains. A painting, for me, is not a record of a scene but of an absence — the interval between one state and the next. I work slowly, in series, returning to the same forms until they stop meaning what I first intended and start meaning something closer to the truth. Silence is not empty in my studio; it is the material I am most often shaping.",
+    "Pichakorn Chukiew (tuapennot) is a multidisciplinary artist whose practice spans painting, installation, sculpture, mixed media, found-object art, and street art. Working primarily with reclaimed materials and everyday objects, he investigates how value is constructed, transformed, and reimagined through artistic intervention. His work is rooted in the belief that nothing is permanent. Inspired by nature's continuous cycles of change, he approaches discarded materials not as waste, but as evidence of social, economic, and cultural systems. Through processes of collecting, layering, painting, and improvisation, familiar objects are displaced from their original functions and invited into new narratives. Drawing from personal experience, news media, digital culture, and observations of everyday life, tuapennot examines the inequalities embedded within contemporary society. His practice reflects on the tensions between developed and developing countries, questioning how power, consumption, labor, and economic growth shape human relationships and define the value assigned to both people and objects. Rather than offering direct answers, his works create spaces for interpretation. Through symbolism and semiotics, he invites viewers to reconsider what is often overlooked, revealing the hidden structures that influence daily life and exposing the fragile boundaries between progress and exploitation, abundance and scarcity, value and waste. For tuapennot, art is an ongoing process of transformation. Each work becomes a site where materials, memories, and social realities converge, encouraging dialogue about inequality, sustainability, and the shifting relationship between humanity and its environment.",
 };
+
 
 export const SERIES_ORDER: SeriesName[] = ["Silence", "Interval", "Aperture"];
 
