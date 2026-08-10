@@ -1,5 +1,10 @@
 export type SeriesName = "Silence" | "Interval" | "Aperture";
 
+export interface CVEntry {
+  year: string;
+  text: string;
+}
+
 export interface Artist {
   name: string;
   location: string;
@@ -7,6 +12,13 @@ export interface Artist {
   instagram: string;
   bio: string[];
   statement: string;
+  education: CVEntry[];
+  soloExhibitions: CVEntry[];
+  groupExhibitions: CVEntry[];
+  collaborations: CVEntry[];
+  residencies: CVEntry[];
+  design: CVEntry[];
+  awards: CVEntry[];
 }
 
 export interface Work {
@@ -34,8 +46,64 @@ export const ARTIST: Artist = {
   ],
   statement:
     "Pichakorn Chukiew (tuapennot) is a multidisciplinary artist whose practice spans painting, installation, sculpture, mixed media, found-object art, and street art. Working primarily with reclaimed materials and everyday objects, he investigates how value is constructed, transformed, and reimagined through artistic intervention. His work is rooted in the belief that nothing is permanent. Inspired by nature's continuous cycles of change, he approaches discarded materials not as waste, but as evidence of social, economic, and cultural systems. Through processes of collecting, layering, painting, and improvisation, familiar objects are displaced from their original functions and invited into new narratives. Drawing from personal experience, news media, digital culture, and observations of everyday life, tuapennot examines the inequalities embedded within contemporary society. His practice reflects on the tensions between developed and developing countries, questioning how power, consumption, labor, and economic growth shape human relationships and define the value assigned to both people and objects. Rather than offering direct answers, his works create spaces for interpretation. Through symbolism and semiotics, he invites viewers to reconsider what is often overlooked, revealing the hidden structures that influence daily life and exposing the fragile boundaries between progress and exploitation, abundance and scarcity, value and waste. For tuapennot, art is an ongoing process of transformation. Each work becomes a site where materials, memories, and social realities converge, encouraging dialogue about inequality, sustainability, and the shifting relationship between humanity and its environment.",
+  education: [
+    { year: "2006 – 2010", text: "Bachelor of Fine Art-Chiang Mai University, Chiang Mai, Thailand" },
+  ],
+  soloExhibitions: [
+    { year: "2026", text: "I don't understand why i have to follow you, Shenme art project, shanghai china." },
+    { year: "2025", text: "This morning in japan, bababa gallery and gallery turnaround, tokyo japan" },
+    { year: "2025", text: "Identity, studio 94, Thailand" },
+    { year: "2023", text: "\"They Called me an Alien\" , Gallery Turn another round, Forus Sendai, Japan" },
+    { year: "2020", text: "\"Experienced\" exhibition VS gallery, Bangkok, Thailand" },
+    { year: "2019", text: "The future only, exhibition Chang Chui gallery, Bangkok, Thailand" },
+    { year: "2018", text: "My name is DORMAN, exhibition Ronin capsule, Hua Hin, Thailand" },
+    { year: "2018", text: "\"Objectivland\" exhibition, case space revolution, Bangkok, Thailand" },
+    { year: "2016", text: "Solo exhibition, Welcome to ama studio, Taiwan" },
+    { year: "2016", text: "Solo exhibition The condition of time, Le'meridien hotel, Chiang mai, Thailand" },
+    { year: "2015", text: "What is แดส (That), Chiang Mai, Thailand" },
+    { year: "2013", text: "Solo Exhibition Junk Objects colorful, Chiang Mai, Thailand" },
+    { year: "2011", text: "Art Thesis Museum CMU Art Center Chiang Mai, Thailand" },
+  ],
+  groupExhibitions: [
+    { year: "2024", text: "Duo exhibition \"Co-in-see\", The Slow, Indonesia" },
+    { year: "2022", text: "Duo show Gardenia exhibition gallery tese, Denmark" },
+    { year: "2022", text: "12 camels take a seat by chance at Kalm Village, Thailand" },
+    { year: "2021", text: "Art for air exhibition, Chiangmai, Thailand" },
+    { year: "2018", text: "Selected by mind self, Chiang mai, Thailand" },
+    { year: "2018", text: "Open your eyes Open yesterday our mind Group exhibition, Chang Chui, Bangkok, Thailand" },
+    { year: "2018", text: "All time High, art for charity, gallery Ver. Bangkok, Thailand" },
+    { year: "2017", text: "Un espacio privilegiado para un ritual contempor'aneo, Spain" },
+    { year: "2017", text: "702.9 Exhibition, Chiang mai, Thailand" },
+    { year: "2017", text: "Wall hold stories, Art Bridge, Chiang rai, Thailand" },
+    { year: "2016", text: "Variation, Lyla gallery, Chiang Mai, Thailand" },
+    { year: "2016", text: "You know everything everything know you, The jam factory, Bangkok" },
+    { year: "2015", text: "Linker art exhibition, Chiang Mai, Thailand" },
+    { year: "2015", text: "Same same, Chiang Mai, Thailand" },
+    { year: "2015", text: "Rumpai Loft Habitat, Chiang Mai, Thailand" },
+    { year: "2014", text: "Yai sang krok, Chiang Mai, Thailand" },
+    { year: "2014", text: "Sangdee Gallery, Chiang Mai, Thailand" },
+    { year: "2013", text: "Re + shirt Photo, Chiang Mai, Thailand" },
+    { year: "2013", text: "Muang Nai ( S ) Mog, Chiang Mai, Thailand" },
+    { year: "2012", text: "Wall painting, Minimal Gallery, Chiang Mai, Thailand" },
+    { year: "2012", text: "Art on bag, Minimal Gallery, Chiang Mai, Thailand" },
+  ],
+  collaborations: [
+    { year: "2025", text: "Things that mattar, fashion brand, Japan" },
+    { year: "2025", text: "Thai takarazuka Thaifestival, Japan" },
+    { year: "2524", text: "Thai takarazuka Thaifestval, Japan" },
+    { year: "2023", text: "The Fig Lobby Art Restaurant and hotel decorations , Bangkok Thailand" },
+    { year: "2019", text: "Solitude is bliss cover painting album music brand, Thailand" },
+  ],
+  residencies: [
+    { year: "2016", text: "Artist in residence, Taiwan" },
+  ],
+  design: [
+    { year: "2014", text: "Design showcase at CHIANGMAI design week, Chiangmai Thailand" },
+  ],
+  awards: [
+    { year: "", text: "Chiang Mai Design Eco art design lamp" },
+  ],
 };
-
 
 export const SERIES_ORDER: SeriesName[] = ["Silence", "Interval", "Aperture"];
 
@@ -53,11 +121,15 @@ export const CATEGORY_BY_SERIES: Record<SeriesName, string> = {
 
 interface RawWork {
   title: string;
-  series: SeriesName;
+  series?: SeriesName;
   year: number;
   dims: string;
   h: string;
-  seed: string;
+  seed?: string;
+  image?: string;
+  medium?: string;
+  category?: string;
+  description?: string;
 }
 
 const RAW_WORKS: RawWork[] = [
@@ -73,19 +145,22 @@ const RAW_WORKS: RawWork[] = [
   { title: "Field Notes on Waiting", series: "Silence", year: 2021, dims: "130 × 160 cm", h: "h-72", seed: "pichakorn-10" },
   { title: "Vessel, Unfired Form", series: "Interval", year: 2023, dims: "35 × 35 × 40 cm", h: "h-80", seed: "pichakorn-11" },
   { title: "Coastline, No Horizon", series: "Aperture", year: 2018, dims: "40 × 60 cm", h: "h-64", seed: "pichakorn-12" },
+  { title: "You Know Everything, Everything Know You I", year: 2016, dims: "Dimensions on request", h: "h-96", image: "/you-know-everything-1.jpg", medium: "Acrylic on canvas", category: "Painting", description: "Shown in the duo exhibition \"You Know Everything, Everything Know You\" with Jimmie James, The Jam Factory, Bangkok, Feb 18 – Mar 27, 2016." },
+  { title: "You Know Everything, Everything Know You II", year: 2016, dims: "Dimensions on request", h: "h-72", image: "/you-know-everything-2.jpg", medium: "Acrylic on canvas", category: "Painting", description: "Shown in the duo exhibition \"You Know Everything, Everything Know You\" with Jimmie James, The Jam Factory, Bangkok, Feb 18 – Mar 27, 2016." },
 ];
 
 export const WORKS: Work[] = RAW_WORKS.map((w, i) => ({
   id: i + 1,
   title: w.title,
   year: w.year,
-  series: w.series,
-  medium: MEDIUM_BY_SERIES[w.series],
-  category: CATEGORY_BY_SERIES[w.series],
+  series: w.series ?? "Silence",
+  medium: w.medium ?? (w.series ? MEDIUM_BY_SERIES[w.series] : "Mixed media"),
+  category: w.category ?? (w.series ? CATEGORY_BY_SERIES[w.series] : "Painting"),
   dimensions: w.dims,
   heightClass: w.h,
-  image: `https://picsum.photos/seed/${w.seed}/900/1200`,
+  image: w.image ?? `https://picsum.photos/seed/${w.seed}/900/1200`,
   description:
+    w.description ??
     "A continuation of the studio's long-running inquiry into stillness and duration, made over several months of returning to the same surface until the image resolved into something the artist no longer felt she had authored alone.",
 }));
 
