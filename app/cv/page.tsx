@@ -1,12 +1,27 @@
 import type { Metadata } from "next";
 import { Download } from "lucide-react";
 import Reveal from "@/components/Reveal";
-import { ARTIST } from "@/lib/data";
+import { ARTIST, type CVEntry } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "CV Profile | Pichakorn Chukiew Tuapennot",
   description: `About ${ARTIST.name} — biography, artist statement, and CV.`,
 };
+
+function CVSection({ title, entries }: { title: string; entries: CVEntry[] }) {
+  if (!entries || entries.length === 0) return null;
+  return (
+    <div className="cv-section">
+      <p className="cv-section-title">{title}</p>
+      {entries.map((e, i) => (
+        <p key={i} className="cv-entry-line">
+          {e.year ? `${e.year} - ` : ""}
+          {e.text}
+        </p>
+      ))}
+    </div>
+  );
+}
 
 export default function CVProfilePage() {
   return (
@@ -14,7 +29,7 @@ export default function CVProfilePage() {
       <div className="cv-grid">
         <Reveal className="cv-portrait-wrap">
           <img
-            src="https://picsum.photos/seed/pichakorn-portrait/700/900"
+            src="/pichakorn-portrait.jpg"
             alt={`Portrait of ${ARTIST.name}`}
             className="cv-portrait"
           />
@@ -35,6 +50,17 @@ export default function CVProfilePage() {
           </button>
         </Reveal>
       </div>
+
+      <Reveal className="cv-history-block">
+        <p className="section-eyebrow">CV</p>
+        <CVSection title="Education" entries={ARTIST.education} />
+        <CVSection title="Solo Exhibition" entries={ARTIST.soloExhibitions} />
+        <CVSection title="Group Exhibition" entries={ARTIST.groupExhibitions} />
+        <CVSection title="Collaboration Project" entries={ARTIST.collaborations} />
+        <CVSection title="Art in Residency" entries={ARTIST.residencies} />
+        <CVSection title="Design" entries={ARTIST.design} />
+        <CVSection title="Award" entries={ARTIST.awards} />
+      </Reveal>
 
       <Reveal className="statement-block">
         <p className="section-eyebrow">Artist Statement</p>
