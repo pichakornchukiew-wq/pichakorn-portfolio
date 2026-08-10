@@ -625,7 +625,7 @@
   border-top: 1px solid var(--border);
   text-align: center;
 }
-.statement-text { color: var(--text-secondary); font-size: 1.05rem; line-height: 1.8; }
+.statement-text { color: var(--text-secondary); font-size: 0.95rem; line-height: 1.8; }
 
 
 /* Contact */
@@ -861,3 +861,4 @@ textarea:focus-visible {
   margin-bottom: 1.1rem;
 }
 "Add exhibition page styles"
+"Match statement font size to CV" 
