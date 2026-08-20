@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 import Reveal from "@/components/Reveal";
 import WallLabel from "@/components/WallLabel";
-import { WORKS, EXHIBITION_WORK_IDS } from "@/lib/data";
+import { WORKS, EXHIBITION_WORK_IDS, HERO_IMAGE } from "@/lib/data";
 
 export default function HomePage() {
   const hero = WORKS[0];
@@ -13,7 +13,7 @@ export default function HomePage() {
     <div>
       <section className="hero">
         <Image
-          src={hero.image}
+         src={HERO_IMAGE} 
           alt=""
           fill
           priority
