@@ -209,6 +209,17 @@ export const EXHIBITIONS: ExhibitionEntry[] = [
     ],
     images: ["/experienced-1.jpg", "/experienced-2.jpg", "/experienced-3.jpg", "/experienced-4.jpg", "/experienced-5.jpg", "/experienced-6.jpg"],
   },
+  {
+    slug: "gardenia",
+    title: "Gardenia",
+    type: "Duo Exhibition, with Kasper Mikael Jacek",
+    venue: "Galleri Tese, Aarhus, Denmark",
+    dates: "Mar 18 - Apr 24, 2022",
+    text: [
+      "\"Gardenia\" is a phrase that both of us agree to use it as an inspiration for this series to represent garden in our perspective. In my point of view garden is a place which create inspiration and beautiful that we can live in it, your may think that garden might mean a place that have a lot of tree and flower that give a peaceful feeling but for me garden is 'where work is create which have variation of material and craving atmosphere' In which it mean garden is an art studio that I create an artwork by bringing colour, atmosphere and surrounding material to portray a beauty in my own perspective.",
+    ],
+    images: ["/gardenia-1.jpg", "/gardenia-2.jpg", "/gardenia-3.jpg", "/gardenia-4.jpg", "/gardenia-5.jpg"],
+  },
 ];
 
 export const SERIES_ORDER: SeriesName[] = ["Silence", "Interval", "Aperture"];
