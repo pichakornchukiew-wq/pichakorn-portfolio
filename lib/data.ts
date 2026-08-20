@@ -153,6 +153,17 @@ export const EXHIBITIONS: ExhibitionEntry[] = [
     ],
     images: ["/you-know-everything-3.jpg", "/you-know-everything-4.jpg", "/you-know-everything-5.jpg"],
   },
+  {
+    slug: "variation",
+    title: "Variation",
+    type: "Group Exhibition, with Arjinjonathan Arjinkit, Dejan Dukic, and Soichiro Shimizu",
+    venue: "Lyla Gallery, Chiang Mai, Thailand",
+    dates: "May 7 - June 25, 2016",
+    text: [
+      "Variation meant to present each artist's distinctive, unique and individualized contributions, the exhibition examines the mean to push the boundaries of materials and exploring each artists characteristic artistic approach. The exhibition give importance to the process rather than the final outcome. The exhibition comprises of new and on-going series from the four artists. Cement is Pichakorn Chukiew latest series. Pichakorn has been working consistently on his abstract painting. He often applies collage technique, including his use of material available at hand in his artwork creation. Applying cement in this recent work is his new challenge in his artistic approach.",
+    ],
+    images: ["/variation-1.jpg", "/variation-2.jpg", "/variation-3.jpg"],
+  },
 ];
 
 export const SERIES_ORDER: SeriesName[] = ["Silence", "Interval", "Aperture"];
