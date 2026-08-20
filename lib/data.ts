@@ -254,6 +254,17 @@ export const EXHIBITIONS: ExhibitionEntry[] = [
     ],
     images: ["/thefiglobbyhotel1.jpg", "/thefiglobbyhotel2.jpg", "/thefiglobbyhotel3.jpg", "/thefiglobbyhotel4.jpg", "/thefiglobbyhotel5.jpg"],
   },
+    {
+    slug: "identity",
+    title: "Identity",
+    type: "Solo Exhibition",
+    venue: "Studio 94, Chiang Mai, Thailand",
+    dates: "April 5 - 30, 2025",
+    text: [
+      "We cannot deny that every individual has their own unique characteristics, and personal interests differ from one person to another. The national system also plays a role in selecting and shaping trends within its own context. Have you ever questioned why we must follow popular trends? Developing countries often imitate the trends of global superpowers. They may forget that their own originality, if nurtured within their own country, could be something truly valuable. Personal style and fashion are really interesting, whether it's about brands, origins, or media influence, these things all shape society. Developing countries keep chasing trends set by leading countries, and it never really stops. These factors directly impact society. Developing countries continue to follow the trends set by highly developed nations, with no sign of stopping. As long as leading countries dictate the direction, Thailand will struggle to rise as a leader. Foreign values hold a strong influence over developing countries, making it difficult to reach a clear conclusion.",
+    ],
+    images: ["/identity1.jpg", "/identity2.jpg", "/identity3.jpg", "/identity4.jpg", "/identity5.jpg"],
+  },
   
 ];
 
