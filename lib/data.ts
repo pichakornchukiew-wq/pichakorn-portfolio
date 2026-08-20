@@ -175,6 +175,18 @@ export const EXHIBITIONS: ExhibitionEntry[] = [
     ],
     images: ["/objectivland-1.jpg", "/objectivland-2.jpg", "/objectivland-3.jpg", "/objectivland-4.jpg", "/objectivland-5.jpg"],
   },
+  {
+    slug: "art-for-air",
+    title: "Art For Air",
+    type: "Solo Exhibition",
+    venue: "Lanna Folklife Museum, Chiang Mai, Thailand",
+    dates: "Feb 14 - Apr 30, 2021",
+    text: [
+      "Art For Air is an attempt to peer into the future of not just the field of contemporary art, but also the quality of the air we breathe through the musings of the artists; whether it be in the form of alternative energy sources, the critique of city layouts that give rise to the issue of dust particles, the cultural management of fire, or any other number of concepts. These deliberations will give rise to new solutions, viewpoints, and theories that can be expressed through the language of contemporary art, which anyone can agree is at its strongest when used for the betterment of society, the economy, or culture, allowing us to realize and pass on new possibilities that can allow our collective communities to confidently move forward towards the future.",
+      "Pichakorn try to talk about the balance between nature and demolishing buildings because when we destroy a building, build a new one or even expand the house all of it creates air pollution in our world that is why all the materials that he used in this series are real leftover trash from a construction site. The balance of our world is changing, more and more buildings are made with less and less nature is saved, Pichakorn tries to create a balance between creating new buildings and saving nature to make them go together in harmonize.",
+    ],
+    images: ["/art-for-air-1.jpg", "/art-for-air-2.jpg", "/art-for-air-3.jpg"],
+  },
 ];
 
 export const SERIES_ORDER: SeriesName[] = ["Silence", "Interval", "Aperture"];
