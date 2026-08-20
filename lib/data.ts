@@ -187,6 +187,17 @@ export const EXHIBITIONS: ExhibitionEntry[] = [
     ],
     images: ["/art-for-air-1.jpg", "/art-for-air-2.jpg", "/art-for-air-3.jpg"],
   },
+  {
+    slug: "please-verify-that-you-are-not-a-robot",
+    title: "Please Verify That You Are Not A Robot",
+    type: "Album Cover Collaboration, with Solitude Is Bliss",
+    venue: "Thailand",
+    dates: "2019",
+    text: [
+      "The album cover and details of the album are a work in collaboration with the indie music brand called Solitude Is Bliss under the concept that represents robots, words, phrases and symbols that reflect the identity of the music brand plus a composition of beauty that reflects the uniqueness in each song.",
+    ],
+    images: ["/solitude-is-bliss-1.jpg", "/solitude-is-bliss-2.jpg", "/solitude-is-bliss-3.jpg", "/solitude-is-bliss-4.jpg", "/solitude-is-bliss-5.jpg"],
+  },
 ];
 
 export const SERIES_ORDER: SeriesName[] = ["Silence", "Interval", "Aperture"];
