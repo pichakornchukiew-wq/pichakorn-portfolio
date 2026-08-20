@@ -198,6 +198,17 @@ export const EXHIBITIONS: ExhibitionEntry[] = [
     ],
     images: ["/solitude-is-bliss-1.jpg", "/solitude-is-bliss-2.jpg", "/solitude-is-bliss-3.jpg", "/solitude-is-bliss-4.jpg", "/solitude-is-bliss-5.jpg"],
   },
+  {
+    slug: "experienced",
+    title: "Experienced",
+    type: "Solo Exhibition",
+    venue: "VS Gallery, Bangkok, Thailand",
+    dates: "Sep 12 - Nov 28, 2020",
+    text: [
+      "\"Experienced\" art exhibition by tua pen not or Pichakorn Chukiew, young fine artist from Chiang Mai. This new collection is his memoir, a journey to life reflection of pain and healing. With career background of furniture builder and fashion designer who focus on material reuse/recycle, tua pen not develops his new and unique technique for this collection by mixing construction repair materials (putty, grout, epoxy) and acrylic and oil paints in abstract expressionism style. Alongside with his concept of surface destroying and repairing, tua pen not also brought mirror-like material to represent the reflection of his memories.",
+    ],
+    images: ["/experienced-1.jpg", "/experienced-2.jpg", "/experienced-3.jpg", "/experienced-4.jpg", "/experienced-5.jpg", "/experienced-6.jpg"],
+  },
 ];
 
 export const SERIES_ORDER: SeriesName[] = ["Silence", "Interval", "Aperture"];
