@@ -265,6 +265,17 @@ export const EXHIBITIONS: ExhibitionEntry[] = [
     ],
     images: ["/identity1.jpg", "/identity2.jpg", "/identity3.jpg", "/identity4.jpg", "/identity5.jpg"],
   },
+    {
+    slug: "this-morning-in-japan",
+    title: "This Morning in Japan",
+    type: "Solo Exhibition",
+    venue: "BABABA, Tokyo & Gallery Turnaround, Sendai, Japan",
+    dates: "Oct 11 - 19 (Tokyo) / Oct 21 - Nov 2 (Sendai), 2025",
+    text: [
+      "For many Thais who grew up in the 1990s, a simple \"good morning\" held an unspoken anticipation—especially on weekend mornings. It marked the start of a cherished ritual: gathering in front of the television to greet beloved friends from far away, in the form of Japanese animation. These animated series, broadcast from Japan into Thai living rooms, were more than entertainment. They became quiet cultural envoys, carrying glimpses of tradition, seasonal festivals, everyday harmony, and a sense of community across borders. For children, these stories shaped imaginations and planted seeds of curiosity—threads of influence woven seamlessly into the narratives. Whether intentional or not, these quiet mornings became small bridges, connecting a developing nation to the soft power of a cultural giant. Today, the echoes remain—in the brands we consume, the cars we drive, the technology we use, and the food we eat. This work reflects on those early imprints, exploring how subtle cultural exchanges shape identity, aspiration, and the unseen structures of influence.",
+    ],
+    images: ["/thismorninginjapan1.jpg", "/thismorninginjapan2.jpg", "/thismorninginjapan3.jpg", "/thismorninginjapan4.jpg", "/thismorninginjapan5.jpg", "/thismorninginjapan6.jpg"],
+  },
   
 ];
 
