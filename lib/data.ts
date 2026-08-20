@@ -276,6 +276,17 @@ export const EXHIBITIONS: ExhibitionEntry[] = [
     ],
     images: ["/thismorninginjapan1.jpg", "/thismorninginjapan2.jpg", "/thismorninginjapan3.jpg", "/thismorninginjapan4.jpg", "/thismorninginjapan5.jpg", "/thismorninginjapan6.jpg"],
   },
+    {
+    slug: "live-painting-aobayama-park",
+    title: "Live Painting — We Are Always Impressed By You",
+    type: "Live Painting / Collaboration — Thai Takarazuka Festival",
+    venue: "Aobayama Park, Sendai, Japan",
+    dates: "Oct 17 - 18, 2025",
+    text: [
+      "Live painting, oil on steel, 250 × 300 cm, created on site at Aobayama Park during the Thai Takarazuka Festival, Sendai, Japan.",
+    ],
+    images: ["/livepaintingaobayama1.jpg", "/livepaintingaobayama2.jpg", "/livepaintingaobayama3.jpg", "/livepaintingaobayama4.jpg", "/livepaintingaobayama5.jpg"],
+  },
   
 ];
 
