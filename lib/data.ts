@@ -243,6 +243,17 @@ export const EXHIBITIONS: ExhibitionEntry[] = [
     ],
     images: ["/theycalledmeanalien1.jpg", "/theycalledmeanalien2.jpg", "/theycalledmeanalien3.jpg"],
   },
+    {
+    slug: "the-fig-lobby-hotel",
+    title: "The Fig Lobby Hotel",
+    type: "Collaboration — Live Painting & Restaurant Decoration",
+    venue: "The Fig Lobby Hotel, Bangkok, Thailand",
+    dates: "April 2023",
+    text: [
+      "Live painting with violin performance for the Grand Opening of The Fig Lobby Hotel. Collaboration project for \"Rad Restaurant\" decorations and glass mural painting.",
+    ],
+    images: ["/thefiglobbyhotel1.jpg", "/thefiglobbyhotel2.jpg", "/thefiglobbyhotel3.jpg", "/thefiglobbyhotel4.jpg", "/thefiglobbyhotel5.jpg"],
+  },
   
 ];
 
