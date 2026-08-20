@@ -117,6 +117,19 @@ export const ARTIST: Artist = {
 
 export const EXHIBITIONS: ExhibitionEntry[] = [
   {
+    slug: "tua-pen-not-recycled-art-design",
+    title: "Tua Pen Not Recycled Art Design",
+    type: "Recycled Art Design & Installation",
+    collaboration: "Chiang Mai Design Week 2014",
+    venue: "Chiang Mai, Thailand",
+    dates: "Dec 6 - Dec 14, 2014",
+    text: [
+      "Tua Pen Not finds fresh use for recycled materials, creating new objects out of them without changing their original textures. Every design tells a story and influence of Semi-Abstract art, from collage the square line on the actual artwork like book cover and the bag that usable in real life on the concept \"Art Design Function\" This project is made between Keng and Not two best friend whom gave teak wood to Not to make it into this three recycle art design, first one is a teak table which use steel as an edge banding and overall silhouette and then used raisin to fill all the gap between the woods piece, one of the table leg are made of wood and the other three are made from steel that spray with pastel colour, second is the long chair that give a authentic feeling of original material and new interpret way to make it contemporary, and the last one is floor lamp which use the combine technique to combine wood and steel.",
+      "This collection have a very strong signature of tua pen not vividly which is the collage that focus on compose in each corner, it create square space that have a continually rhythm and space that full of his true spirit.",
+    ],
+    images: ["/design-week-2014.jpg"],
+  },
+  {
     slug: "you-know-everything-everything-know-you",
     title: "You Know Everything, Everything Know You",
     type: "Duo Exhibition",
