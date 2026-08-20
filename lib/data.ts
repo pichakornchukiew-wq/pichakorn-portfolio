@@ -294,6 +294,7 @@ export const WORKS: Work[] = RAW_WORKS.map((w, i) => ({
 }));
 
 export const EXHIBITION_WORK_IDS = [13, 14];
+export const HERO_IMAGE = "/gallery-home-bg.jpg";
 export const CATEGORIES = ["All", "Painting", "Sculpture", "Drawing"];
 
 export function getWorkById(id: number): Work | undefined {
