@@ -220,6 +220,18 @@ export const EXHIBITIONS: ExhibitionEntry[] = [
     ],
     images: ["/gardenia-1.jpg", "/gardenia-2.jpg", "/gardenia-3.jpg", "/gardenia-4.jpg", "/gardenia-5.jpg"],
   },
+  {
+    slug: "co-in-see",
+    title: "Co-In-See",
+    type: "Duo Exhibition, with Ray Julian",
+    venue: "The Slow, Indonesia",
+    dates: "March 22 - April 30, 2024",
+    text: [
+      "In this exhibition, we present the intriguing juxtaposition of Rai Julian and Tua pen not, each bringing their unique perspective and artistic flair to the theme of intentional parody. For them, art is not merely a commodity to be bought and sold, but a sacred expression of passion, transcending the boundaries of tradition and commerce. Yet, beyond the mere act of creation, Rai and Tua Pen Not share a deeper ethos — a belief in the transformative power of art to challenge, provoke, and ultimately, to liberate. They stand as torchbearers of artistic rebellion, steadfast in their commitment to carving out a space for themselves outside the confines of the traditional art scene, where authenticity reigns supreme and creativity knows no bounds. As visitors navigate through the exhibition, they are encouraged to ponder upon what role does parody play in challenging and reshaping our perceptions of gender, sexuality, and social constructs.",
+      "\u201cCo-In-See,\u201d originating from \u201cCoincidence,\u201d suggests not only chance but also a joint invitation for audiences to see and ponder thought-provoking questions, reflecting on satire's potential to drive social change. Using humour and irony, we're prompted to reassess our assumptions and embrace the multifaceted nature of the human experience.",
+    ],
+    images: ["/co-in-see-1.jpg", "/co-in-see-2.jpg", "/co-in-see-3.jpg", "/co-in-see-4.jpg", "/co-in-see-5.jpg"],
+  },
 ];
 
 export const SERIES_ORDER: SeriesName[] = ["Silence", "Interval", "Aperture"];
