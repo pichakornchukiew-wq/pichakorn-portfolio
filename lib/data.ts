@@ -232,6 +232,17 @@ export const EXHIBITIONS: ExhibitionEntry[] = [
     ],
     images: ["/co-in-see-1.jpg", "/co-in-see-2.jpg", "/co-in-see-3.jpg", "/co-in-see-4.jpg", "/co-in-see-5.jpg"],
   },
+    {
+    slug: "they-called-me-an-alien",
+    title: "They Called Me An Alien",
+    type: "Solo Exhibition",
+    venue: "Gallery Turn Another Round, Sendai, Japan",
+    dates: "Nov 11 - Nov 30, 2023",
+    text: [
+      "The artworks in this exhibition narrate experiences that have transitioned from one place to another. The phrase \"They call me an Alien\" is used to describe groups or individuals with unconventional ways different from traditional customs. Staying outside of old traditions might lead to discovering new things. With this concept in mind, I've created artworks for everyone to experience what's different, to perceive those distinct elements as new experiences within that space. Creating art in this exhibition, I define myself as an \"Alien\" because people from different lands might have diverse experiences. So, we should be willing to explore new perspectives, think outside the box, and embrace new impressions. My goal is to provide everyone with an experience of thinking without boundaries, and that's why I call this work \"They call me an Alien.",
+    ],
+    images: ["/theycalledmeanalien1.jpg", "/theycalledmeanalien2.jpg", "/theycalledmeanalien3.jpg"],
+  },
   
 ];
 
