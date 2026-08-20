@@ -358,7 +358,7 @@ export const WORKS: Work[] = RAW_WORKS.map((w, i) => ({
     "A continuation of the studio's long-running inquiry into stillness and duration, made over several months of returning to the same surface until the image resolved into something the artist no longer felt she had authored alone.",
 }));
 
-export const EXHIBITION_WORK_IDS = [13, 14];
+export const EXHIBITION_WORK_IDS = [13];
 export const HERO_IMAGE = "/gallery-home-bg.jpg";
 export const CATEGORIES = ["All", "Painting", "Sculpture", "Drawing"];
 
