@@ -232,6 +232,7 @@ export const EXHIBITIONS: ExhibitionEntry[] = [
     ],
     images: ["/co-in-see-1.jpg", "/co-in-see-2.jpg", "/co-in-see-3.jpg", "/co-in-see-4.jpg", "/co-in-see-5.jpg"],
   },
+  
 ];
 
 export const SERIES_ORDER: SeriesName[] = ["Silence", "Interval", "Aperture"];
