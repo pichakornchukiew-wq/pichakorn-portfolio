@@ -339,7 +339,7 @@ const RAW_WORKS: RawWork[] = [
   { title: "Field Notes on Waiting", series: "Silence", year: 2021, dims: "130 × 160 cm", h: "h-72", seed: "pichakorn-10" },
   { title: "Vessel, Unfired Form", series: "Interval", year: 2023, dims: "35 × 35 × 40 cm", h: "h-80", seed: "pichakorn-11" },
   { title: "Coastline, No Horizon", series: "Aperture", year: 2018, dims: "40 × 60 cm", h: "h-64", seed: "pichakorn-12" },
-  { title: "You Know Everything, Everything Know You I", year: 2016, dims: "Dimensions on request", h: "h-96", image: "/you-know-everything-1.jpg", medium: "Acrylic on canvas", category: "Painting", description: "Shown in the duo exhibition \"You Know Everything, Everything Know You\" with Jimmie James, The Jam Factory, Bangkok, Feb 18 – Mar 27, 2016." },
+  { title: "I Don't Understand Why I Have To Follow You", year: 2026, dims: "Dimensions on request", h: "h-96", image: "/idontunderstand4.jpg", medium: "Oil on canvas", category: "Painting", description: "Shown in the solo exhibition \"I Don't Understand Why I Have To Follow You,\" presented by SHENME ART project & consultancy, Shanghai, China, March 2 – April 30, 2026." },
   { title: "You Know Everything, Everything Know You II", year: 2016, dims: "Dimensions on request", h: "h-72", image: "/you-know-everything-2.jpg", medium: "Acrylic on canvas", category: "Painting", description: "Shown in the duo exhibition \"You Know Everything, Everything Know You\" with Jimmie James, The Jam Factory, Bangkok, Feb 18 – Mar 27, 2016." },
 ];
 
