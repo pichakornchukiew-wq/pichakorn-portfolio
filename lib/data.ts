@@ -119,8 +119,8 @@ export const EXHIBITIONS: ExhibitionEntry[] = [
   {
     slug: "tua-pen-not-recycled-art-design",
     title: "Tua Pen Not Recycled Art Design",
-    type: "Recycled Art Design & Installation",
-    collaboration: "Chiang Mai Design Week 2014",
+    type: "Recycled Art Design & Installation, Chiang Mai Design Week 2014",
+    
     venue: "Chiang Mai, Thailand",
     dates: "Dec 6 - Dec 14, 2014",
     text: [
