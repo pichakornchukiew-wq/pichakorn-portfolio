@@ -164,6 +164,17 @@ export const EXHIBITIONS: ExhibitionEntry[] = [
     ],
     images: ["/variation-1.jpg", "/variation-2.jpg", "/variation-3.jpg"],
   },
+  {
+    slug: "objectivland",
+    title: "Objectivland",
+    type: "Solo Exhibition",
+    venue: "Case Space Revolution, Bangkok, Thailand",
+    dates: "Apr 19 - May 31, 2018",
+    text: [
+      "There are plentiful problems during my daily life, including an unexpected situation which could change the whole plan. I always plan for a livelihood, but I was nevertheless unable to control all of them due to any deviations. My life then turns adaptive to face every problem for any solutions that ought to be done. The \"Unknown\" is what I call all these things, which always bring our livelihood to any different directions. According to a duty or a function of matters around, a material is similar to human life through its own definition to define what it is and what it is for? These materials are possibly adaptive to other benefits, including flexible abilities to its own value. Transformation or replacement would be applied for circumstance and necessity. A possibility for me, has various dimensions. I still confirm from above that a material is similar to human life. The \"Unknown\" is then applicable by its definition which develops all these materials into a liberated matter and randomness.",
+    ],
+    images: ["/objectivland-1.jpg", "/objectivland-2.jpg", "/objectivland-3.jpg", "/objectivland-4.jpg", "/objectivland-5.jpg"],
+  },
 ];
 
 export const SERIES_ORDER: SeriesName[] = ["Silence", "Interval", "Aperture"];
