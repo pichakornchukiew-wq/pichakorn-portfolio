@@ -287,6 +287,17 @@ export const EXHIBITIONS: ExhibitionEntry[] = [
     ],
     images: ["/livepaintingaobayama1.jpg", "/livepaintingaobayama2.jpg", "/livepaintingaobayama3.jpg", "/livepaintingaobayama4.jpg", "/livepaintingaobayama5.jpg"],
   },
+    {
+    slug: "i-dont-understand-why-i-have-to-follow-you",
+    title: "I Don't Understand Why I Have To Follow You",
+    type: "Solo Exhibition",
+    venue: "Presented by SHENME ART project & consultancy, Shanghai, China",
+    dates: "March 2 - April 30, 2026",
+    text: [
+      "The exhibition \"I Don't Understand Why I Have To Follow You\" presents new works by Chiang Mai–based artist Pichakorn Chukiew, who works under the artistic identity Tuapennot. Since the outbreak of COVID-19, his practice has shifted from abstract explorations of inner emotion toward a direct engagement with social realities, examining the tensions between global mobility and local conditions. Working within Chiang Mai—a city deeply shaped by tourism—Tuapennot investigates how transnational brands operate not only as commodities but as symbolic markers of global modernity. As global signifiers circulate through the city, everyday life is compressed into the \"backstage\" of the tourism economy, while commodities, culture, and even historical narratives are absorbed into cycles of stimulation and consumption. Through painting, installation, and street-based practices, the artist transforms fragments of daily observation into layered visual narratives. Brand imagery, youth fashion, cartoon figures, and spontaneous text coexist within compositions marked by rough gestures and highly saturated color. Oscillating between humor and critique, the works reflect on Thailand's semi-peripheral position within global capitalism and question the persistent narrative of \"following\" the West. Rather than proposing withdrawal from global systems, Tuapennot's work intensifies the frictions already embedded within them.",
+    ],
+    images: ["/idontunderstand1.jpg", "/idontunderstand2.jpg", "/idontunderstand3.jpg", "/idontunderstand4.jpg", "/idontunderstand5.jpg"],
+  },
   
 ];
 
