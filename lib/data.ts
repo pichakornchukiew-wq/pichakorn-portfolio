@@ -151,7 +151,7 @@ export const EXHIBITIONS: ExhibitionEntry[] = [
       "It's a different kind of knowing, like when you love someone and they love you. There's a connection Through the heart.",
       "It can happen with abstract painting, this knowing of the heart. To come from the inside back to the world of wonder, and the connection to the hearts of others.",
     ],
-    images: ["/you-know-everything-1.jpg", "/you-know-everything-2.jpg"],
+    images: ["/you-know-everything-3.jpg", "/you-know-everything-4.jpg", "/you-know-everything-5.jpg"],
   },
 ];
 
