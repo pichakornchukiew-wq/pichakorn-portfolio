@@ -130,6 +130,15 @@ export const EXHIBITIONS: ExhibitionEntry[] = [
     images: ["/design-week-2014.jpg"],
   },
   {
+    slug: "welcome-to-ama-studio",
+    title: "Welcome to Ama Studio",
+    type: "Solo Exhibition",
+    venue: "I You Ama, Yilan, Taiwan",
+    dates: "Nov 19, 2016",
+    text: [],
+    images: ["/ama-studio-install.jpg", "/ama-studio-work-1.jpg", "/ama-studio-work-2.jpg"],
+  },
+  {
     slug: "you-know-everything-everything-know-you",
     title: "You Know Everything, Everything Know You",
     type: "Duo Exhibition",
