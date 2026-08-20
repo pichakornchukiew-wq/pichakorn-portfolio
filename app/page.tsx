@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 import Reveal from "@/components/Reveal";
 import WallLabel from "@/components/WallLabel";
-import { WORKS, EXHIBITION_WORK_IDS, HERO_IMAGE } from "@/lib/data";
+import { WORKS, EXHIBITION_WORK_IDS, HERO_IMAGE, ARTIST } from "@/lib/data";
 
 export default function HomePage() {
   const hero = WORKS[0];
@@ -39,12 +39,7 @@ export default function HomePage() {
 
       <section className="intro-block">
         <Reveal>
-          <p className="intro-text">
-            Pichakorn Chukiew Tuapennot&apos;s work moves between painting, bronze, and drawing in
-            pursuit of a single question: what does a space retain, once the person
-            who gave it meaning has gone. Each series is made over years, not months —
-            a slow accumulation rather than a single gesture.
-          </p>
+          <p className="intro-text">{ARTIST.statement}</p>
         </Reveal>
       </section>
 
