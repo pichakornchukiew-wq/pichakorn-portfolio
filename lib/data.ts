@@ -117,17 +117,138 @@ export const ARTIST: Artist = {
 
 export const EXHIBITIONS: ExhibitionEntry[] = [
   {
-    slug: "tua-pen-not-recycled-art-design",
-    title: "Tua Pen Not Recycled Art Design",
-    type: "Recycled Art Design & Installation, Chiang Mai Design Week 2014",
-    
-    venue: "Chiang Mai, Thailand",
-    dates: "Dec 6 - Dec 14, 2014",
+    slug: "i-dont-understand-why-i-have-to-follow-you",
+    title: "I Don't Understand Why I Have To Follow You",
+    type: "Solo Exhibition",
+    venue: "Presented by SHENME ART project & consultancy, Shanghai, China",
+    dates: "March 2 - April 30, 2026",
     text: [
-      "Tua Pen Not finds fresh use for recycled materials, creating new objects out of them without changing their original textures. Every design tells a story and influence of Semi-Abstract art, from collage the square line on the actual artwork like book cover and the bag that usable in real life on the concept \"Art Design Function\" This project is made between Keng and Not two best friend whom gave teak wood to Not to make it into this three recycle art design, first one is a teak table which use steel as an edge banding and overall silhouette and then used raisin to fill all the gap between the woods piece, one of the table leg are made of wood and the other three are made from steel that spray with pastel colour, second is the long chair that give a authentic feeling of original material and new interpret way to make it contemporary, and the last one is floor lamp which use the combine technique to combine wood and steel.",
-      "This collection have a very strong signature of tua pen not vividly which is the collage that focus on compose in each corner, it create square space that have a continually rhythm and space that full of his true spirit.",
+      "The exhibition \"I Don't Understand Why I Have To Follow You\" presents new works by Chiang Mai–based artist Pichakorn Chukiew, who works under the artistic identity Tuapennot. Since the outbreak of COVID-19, his practice has shifted from abstract explorations of inner emotion toward a direct engagement with social realities, examining the tensions between global mobility and local conditions. Working within Chiang Mai—a city deeply shaped by tourism—Tuapennot investigates how transnational brands operate not only as commodities but as symbolic markers of global modernity. As global signifiers circulate through the city, everyday life is compressed into the \"backstage\" of the tourism economy, while commodities, culture, and even historical narratives are absorbed into cycles of stimulation and consumption. Through painting, installation, and street-based practices, the artist transforms fragments of daily observation into layered visual narratives. Brand imagery, youth fashion, cartoon figures, and spontaneous text coexist within compositions marked by rough gestures and highly saturated color. Oscillating between humor and critique, the works reflect on Thailand's semi-peripheral position within global capitalism and question the persistent narrative of \"following\" the West. Rather than proposing withdrawal from global systems, Tuapennot's work intensifies the frictions already embedded within them.",
     ],
-    images: ["/design-week-2014.jpg"],
+    images: ["/idontunderstand1.jpg", "/idontunderstand2.jpg", "/idontunderstand3.jpg", "/idontunderstand4.jpg", "/idontunderstand5.jpg"],
+  },
+  {
+    slug: "live-painting-aobayama-park",
+    title: "Live Painting — We Are Always Impressed By You",
+    type: "Live Painting / Collaboration — Thai Takarazuka Festival",
+    venue: "Aobayama Park, Sendai, Japan",
+    dates: "Oct 17 - 18, 2025",
+    text: [
+      "Live painting, oil on steel, 250 × 300 cm, created on site at Aobayama Park during the Thai Takarazuka Festival, Sendai, Japan.",
+    ],
+    images: ["/livepaintingaobayama1.jpg", "/livepaintingaobayama2.jpg", "/livepaintingaobayama3.jpg", "/livepaintingaobayama4.jpg", "/livepaintingaobayama5.jpg"],
+  },
+  {
+    slug: "this-morning-in-japan",
+    title: "This Morning in Japan",
+    type: "Solo Exhibition",
+    venue: "BABABA, Tokyo & Gallery Turnaround, Sendai, Japan",
+    dates: "Oct 11 - 19 (Tokyo) / Oct 21 - Nov 2 (Sendai), 2025",
+    text: [
+      "For many Thais who grew up in the 1990s, a simple \"good morning\" held an unspoken anticipation—especially on weekend mornings. It marked the start of a cherished ritual: gathering in front of the television to greet beloved friends from far away, in the form of Japanese animation. These animated series, broadcast from Japan into Thai living rooms, were more than entertainment. They became quiet cultural envoys, carrying glimpses of tradition, seasonal festivals, everyday harmony, and a sense of community across borders. For children, these stories shaped imaginations and planted seeds of curiosity—threads of influence woven seamlessly into the narratives. Whether intentional or not, these quiet mornings became small bridges, connecting a developing nation to the soft power of a cultural giant. Today, the echoes remain—in the brands we consume, the cars we drive, the technology we use, and the food we eat. This work reflects on those early imprints, exploring how subtle cultural exchanges shape identity, aspiration, and the unseen structures of influence.",
+    ],
+    images: ["/thismorninginjapan1.jpg", "/thismorninginjapan2.jpg", "/thismorninginjapan3.jpg", "/thismorninginjapan4.jpg", "/thismorninginjapan5.jpg", "/thismorninginjapan6.jpg"],
+  },
+  {
+    slug: "identity",
+    title: "Identity",
+    type: "Solo Exhibition",
+    venue: "Studio 94, Chiang Mai, Thailand",
+    dates: "April 5 - 30, 2025",
+    text: [
+      "We cannot deny that every individual has their own unique characteristics, and personal interests differ from one person to another. The national system also plays a role in selecting and shaping trends within its own context. Have you ever questioned why we must follow popular trends? Developing countries often imitate the trends of global superpowers. They may forget that their own originality, if nurtured within their own country, could be something truly valuable. Personal style and fashion are really interesting, whether it's about brands, origins, or media influence, these things all shape society. Developing countries keep chasing trends set by leading countries, and it never really stops. These factors directly impact society. Developing countries continue to follow the trends set by highly developed nations, with no sign of stopping. As long as leading countries dictate the direction, Thailand will struggle to rise as a leader. Foreign values hold a strong influence over developing countries, making it difficult to reach a clear conclusion.",
+    ],
+    images: ["/identity1.jpg", "/identity2.jpg", "/identity3.jpg", "/identity4.jpg", "/identity5.jpg"],
+  },
+  {
+    slug: "co-in-see",
+    title: "Co-In-See",
+    type: "Duo Exhibition, with Ray Julian",
+    venue: "The Slow, Indonesia",
+    dates: "March 22 - April 30, 2024",
+    text: [
+      "In this exhibition, we present the intriguing juxtaposition of Rai Julian and Tua pen not, each bringing their unique perspective and artistic flair to the theme of intentional parody. For them, art is not merely a commodity to be bought and sold, but a sacred expression of passion, transcending the boundaries of tradition and commerce. Yet, beyond the mere act of creation, Rai and Tua Pen Not share a deeper ethos — a belief in the transformative power of art to challenge, provoke, and ultimately, to liberate. They stand as torchbearers of artistic rebellion, steadfast in their commitment to carving out a space for themselves outside the confines of the traditional art scene, where authenticity reigns supreme and creativity knows no bounds. As visitors navigate through the exhibition, they are encouraged to ponder upon what role does parody play in challenging and reshaping our perceptions of gender, sexuality, and social constructs.",
+      "\u201cCo-In-See,\u201d originating from \u201cCoincidence,\u201d suggests not only chance but also a joint invitation for audiences to see and ponder thought-provoking questions, reflecting on satire's potential to drive social change. Using humour and irony, we're prompted to reassess our assumptions and embrace the multifaceted nature of the human experience.",
+    ],
+    images: ["/co-in-see-1.jpg", "/co-in-see-2.jpg", "/co-in-see-3.jpg", "/co-in-see-4.jpg", "/co-in-see-5.jpg"],
+  },
+  {
+    slug: "they-called-me-an-alien",
+    title: "They Called Me An Alien",
+    type: "Solo Exhibition",
+    venue: "Gallery Turn Another Round, Sendai, Japan",
+    dates: "Nov 11 - Nov 30, 2023",
+    text: [
+      "The artworks in this exhibition narrate experiences that have transitioned from one place to another. The phrase \"They call me an Alien\" is used to describe groups or individuals with unconventional ways different from traditional customs. Staying outside of old traditions might lead to discovering new things. With this concept in mind, I've created artworks for everyone to experience what's different, to perceive those distinct elements as new experiences within that space. Creating art in this exhibition, I define myself as an \"Alien\" because people from different lands might have diverse experiences. So, we should be willing to explore new perspectives, think outside the box, and embrace new impressions. My goal is to provide everyone with an experience of thinking without boundaries, and that's why I call this work \"They call me an Alien.",
+    ],
+    images: ["/theycalledmeanalien1.jpg", "/theycalledmeanalien2.jpg", "/theycalledmeanalien3.jpg"],
+  },
+  {
+    slug: "the-fig-lobby-hotel",
+    title: "The Fig Lobby Hotel",
+    type: "Collaboration — Live Painting & Restaurant Decoration",
+    venue: "The Fig Lobby Hotel, Bangkok, Thailand",
+    dates: "April 2023",
+    text: [
+      "Live painting with violin performance for the Grand Opening of The Fig Lobby Hotel. Collaboration project for \"Rad Restaurant\" decorations and glass mural painting.",
+    ],
+    images: ["/thefiglobbyhotel1.jpg", "/thefiglobbyhotel2.jpg", "/thefiglobbyhotel3.jpg", "/thefiglobbyhotel4.jpg", "/thefiglobbyhotel5.jpg"],
+  },
+  {
+    slug: "gardenia",
+    title: "Gardenia",
+    type: "Duo Exhibition, with Kasper Mikael Jacek",
+    venue: "Galleri Tese, Aarhus, Denmark",
+    dates: "Mar 18 - Apr 24, 2022",
+    text: [
+      "\"Gardenia\" is a phrase that both of us agree to use it as an inspiration for this series to represent garden in our perspective. In my point of view garden is a place which create inspiration and beautiful that we can live in it, your may think that garden might mean a place that have a lot of tree and flower that give a peaceful feeling but for me garden is 'where work is create which have variation of material and craving atmosphere' In which it mean garden is an art studio that I create an artwork by bringing colour, atmosphere and surrounding material to portray a beauty in my own perspective.",
+    ],
+    images: ["/gardenia-1.jpg", "/gardenia-2.jpg", "/gardenia-3.jpg", "/gardenia-4.jpg", "/gardenia-5.jpg"],
+  },
+  {
+    slug: "art-for-air",
+    title: "Art For Air",
+    type: "Solo Exhibition",
+    venue: "Lanna Folklife Museum, Chiang Mai, Thailand",
+    dates: "Feb 14 - Apr 30, 2021",
+    text: [
+      "Art For Air is an attempt to peer into the future of not just the field of contemporary art, but also the quality of the air we breathe through the musings of the artists; whether it be in the form of alternative energy sources, the critique of city layouts that give rise to the issue of dust particles, the cultural management of fire, or any other number of concepts. These deliberations will give rise to new solutions, viewpoints, and theories that can be expressed through the language of contemporary art, which anyone can agree is at its strongest when used for the betterment of society, the economy, or culture, allowing us to realize and pass on new possibilities that can allow our collective communities to confidently move forward towards the future.",
+      "Pichakorn try to talk about the balance between nature and demolishing buildings because when we destroy a building, build a new one or even expand the house all of it creates air pollution in our world that is why all the materials that he used in this series are real leftover trash from a construction site. The balance of our world is changing, more and more buildings are made with less and less nature is saved, Pichakorn tries to create a balance between creating new buildings and saving nature to make them go together in harmonize.",
+    ],
+    images: ["/art-for-air-1.jpg", "/art-for-air-2.jpg", "/art-for-air-3.jpg"],
+  },
+  {
+    slug: "experienced",
+    title: "Experienced",
+    type: "Solo Exhibition",
+    venue: "VS Gallery, Bangkok, Thailand",
+    dates: "Sep 12 - Nov 28, 2020",
+    text: [
+      "\"Experienced\" art exhibition by tua pen not or Pichakorn Chukiew, young fine artist from Chiang Mai. This new collection is his memoir, a journey to life reflection of pain and healing. With career background of furniture builder and fashion designer who focus on material reuse/recycle, tua pen not develops his new and unique technique for this collection by mixing construction repair materials (putty, grout, epoxy) and acrylic and oil paints in abstract expressionism style. Alongside with his concept of surface destroying and repairing, tua pen not also brought mirror-like material to represent the reflection of his memories.",
+    ],
+    images: ["/experienced-1.jpg", "/experienced-2.jpg", "/experienced-3.jpg", "/experienced-4.jpg", "/experienced-5.jpg", "/experienced-6.jpg"],
+  },
+  {
+    slug: "please-verify-that-you-are-not-a-robot",
+    title: "Please Verify That You Are Not A Robot",
+    type: "Album Cover Collaboration, with Solitude Is Bliss",
+    venue: "Thailand",
+    dates: "2019",
+    text: [
+      "The album cover and details of the album are a work in collaboration with the indie music brand called Solitude Is Bliss under the concept that represents robots, words, phrases and symbols that reflect the identity of the music brand plus a composition of beauty that reflects the uniqueness in each song.",
+    ],
+    images: ["/solitude-is-bliss-1.jpg", "/solitude-is-bliss-2.jpg", "/solitude-is-bliss-3.jpg", "/solitude-is-bliss-4.jpg", "/solitude-is-bliss-5.jpg"],
+  },
+  {
+    slug: "objectivland",
+    title: "Objectivland",
+    type: "Solo Exhibition",
+    venue: "Case Space Revolution, Bangkok, Thailand",
+    dates: "Apr 19 - May 31, 2018",
+    text: [
+      "There are plentiful problems during my daily life, including an unexpected situation which could change the whole plan. I always plan for a livelihood, but I was nevertheless unable to control all of them due to any deviations. My life then turns adaptive to face every problem for any solutions that ought to be done. The \"Unknown\" is what I call all these things, which always bring our livelihood to any different directions. According to a duty or a function of matters around, a material is similar to human life through its own definition to define what it is and what it is for? These materials are possibly adaptive to other benefits, including flexible abilities to its own value. Transformation or replacement would be applied for circumstance and necessity. A possibility for me, has various dimensions. I still confirm from above that a material is similar to human life. The \"Unknown\" is then applicable by its definition which develops all these materials into a liberated matter and randomness.",
+    ],
+    images: ["/objectivland-1.jpg", "/objectivland-2.jpg", "/objectivland-3.jpg", "/objectivland-4.jpg", "/objectivland-5.jpg"],
   },
   {
     slug: "welcome-to-ama-studio",
@@ -137,6 +258,17 @@ export const EXHIBITIONS: ExhibitionEntry[] = [
     dates: "Nov 19, 2016",
     text: [],
     images: ["/ama-studio-install.jpg", "/ama-studio-work-1.jpg", "/ama-studio-work-2.jpg"],
+  },
+  {
+    slug: "variation",
+    title: "Variation",
+    type: "Group Exhibition, with Arjinjonathan Arjinkit, Dejan Dukic, and Soichiro Shimizu",
+    venue: "Lyla Gallery, Chiang Mai, Thailand",
+    dates: "May 7 - June 25, 2016",
+    text: [
+      "Variation meant to present each artist's distinctive, unique and individualized contributions, the exhibition examines the mean to push the boundaries of materials and exploring each artists characteristic artistic approach. The exhibition give importance to the process rather than the final outcome. The exhibition comprises of new and on-going series from the four artists. Cement is Pichakorn Chukiew latest series. Pichakorn has been working consistently on his abstract painting. He often applies collage technique, including his use of material available at hand in his artwork creation. Applying cement in this recent work is his new challenge in his artistic approach.",
+    ],
+    images: ["/variation-1.jpg", "/variation-2.jpg", "/variation-3.jpg"],
   },
   {
     slug: "you-know-everything-everything-know-you",
@@ -154,153 +286,19 @@ export const EXHIBITIONS: ExhibitionEntry[] = [
     images: ["/you-know-everything-3.jpg", "/you-know-everything-4.jpg", "/you-know-everything-5.jpg"],
   },
   {
-    slug: "variation",
-    title: "Variation",
-    type: "Group Exhibition, with Arjinjonathan Arjinkit, Dejan Dukic, and Soichiro Shimizu",
-    venue: "Lyla Gallery, Chiang Mai, Thailand",
-    dates: "May 7 - June 25, 2016",
+    slug: "tua-pen-not-recycled-art-design",
+    title: "Tua Pen Not Recycled Art Design",
+    type: "Recycled Art Design & Installation, Chiang Mai Design Week 2014",
+    
+    venue: "Chiang Mai, Thailand",
+    dates: "Dec 6 - Dec 14, 2014",
     text: [
-      "Variation meant to present each artist's distinctive, unique and individualized contributions, the exhibition examines the mean to push the boundaries of materials and exploring each artists characteristic artistic approach. The exhibition give importance to the process rather than the final outcome. The exhibition comprises of new and on-going series from the four artists. Cement is Pichakorn Chukiew latest series. Pichakorn has been working consistently on his abstract painting. He often applies collage technique, including his use of material available at hand in his artwork creation. Applying cement in this recent work is his new challenge in his artistic approach.",
+      "Tua Pen Not finds fresh use for recycled materials, creating new objects out of them without changing their original textures. Every design tells a story and influence of Semi-Abstract art, from collage the square line on the actual artwork like book cover and the bag that usable in real life on the concept \"Art Design Function\" This project is made between Keng and Not two best friend whom gave teak wood to Not to make it into this three recycle art design, first one is a teak table which use steel as an edge banding and overall silhouette and then used raisin to fill all the gap between the woods piece, one of the table leg are made of wood and the other three are made from steel that spray with pastel colour, second is the long chair that give a authentic feeling of original material and new interpret way to make it contemporary, and the last one is floor lamp which use the combine technique to combine wood and steel.",
+      "This collection have a very strong signature of tua pen not vividly which is the collage that focus on compose in each corner, it create square space that have a continually rhythm and space that full of his true spirit.",
     ],
-    images: ["/variation-1.jpg", "/variation-2.jpg", "/variation-3.jpg"],
+    images: ["/design-week-2014.jpg"],
   },
-  {
-    slug: "objectivland",
-    title: "Objectivland",
-    type: "Solo Exhibition",
-    venue: "Case Space Revolution, Bangkok, Thailand",
-    dates: "Apr 19 - May 31, 2018",
-    text: [
-      "There are plentiful problems during my daily life, including an unexpected situation which could change the whole plan. I always plan for a livelihood, but I was nevertheless unable to control all of them due to any deviations. My life then turns adaptive to face every problem for any solutions that ought to be done. The \"Unknown\" is what I call all these things, which always bring our livelihood to any different directions. According to a duty or a function of matters around, a material is similar to human life through its own definition to define what it is and what it is for? These materials are possibly adaptive to other benefits, including flexible abilities to its own value. Transformation or replacement would be applied for circumstance and necessity. A possibility for me, has various dimensions. I still confirm from above that a material is similar to human life. The \"Unknown\" is then applicable by its definition which develops all these materials into a liberated matter and randomness.",
-    ],
-    images: ["/objectivland-1.jpg", "/objectivland-2.jpg", "/objectivland-3.jpg", "/objectivland-4.jpg", "/objectivland-5.jpg"],
-  },
-  {
-    slug: "art-for-air",
-    title: "Art For Air",
-    type: "Solo Exhibition",
-    venue: "Lanna Folklife Museum, Chiang Mai, Thailand",
-    dates: "Feb 14 - Apr 30, 2021",
-    text: [
-      "Art For Air is an attempt to peer into the future of not just the field of contemporary art, but also the quality of the air we breathe through the musings of the artists; whether it be in the form of alternative energy sources, the critique of city layouts that give rise to the issue of dust particles, the cultural management of fire, or any other number of concepts. These deliberations will give rise to new solutions, viewpoints, and theories that can be expressed through the language of contemporary art, which anyone can agree is at its strongest when used for the betterment of society, the economy, or culture, allowing us to realize and pass on new possibilities that can allow our collective communities to confidently move forward towards the future.",
-      "Pichakorn try to talk about the balance between nature and demolishing buildings because when we destroy a building, build a new one or even expand the house all of it creates air pollution in our world that is why all the materials that he used in this series are real leftover trash from a construction site. The balance of our world is changing, more and more buildings are made with less and less nature is saved, Pichakorn tries to create a balance between creating new buildings and saving nature to make them go together in harmonize.",
-    ],
-    images: ["/art-for-air-1.jpg", "/art-for-air-2.jpg", "/art-for-air-3.jpg"],
-  },
-  {
-    slug: "please-verify-that-you-are-not-a-robot",
-    title: "Please Verify That You Are Not A Robot",
-    type: "Album Cover Collaboration, with Solitude Is Bliss",
-    venue: "Thailand",
-    dates: "2019",
-    text: [
-      "The album cover and details of the album are a work in collaboration with the indie music brand called Solitude Is Bliss under the concept that represents robots, words, phrases and symbols that reflect the identity of the music brand plus a composition of beauty that reflects the uniqueness in each song.",
-    ],
-    images: ["/solitude-is-bliss-1.jpg", "/solitude-is-bliss-2.jpg", "/solitude-is-bliss-3.jpg", "/solitude-is-bliss-4.jpg", "/solitude-is-bliss-5.jpg"],
-  },
-  {
-    slug: "experienced",
-    title: "Experienced",
-    type: "Solo Exhibition",
-    venue: "VS Gallery, Bangkok, Thailand",
-    dates: "Sep 12 - Nov 28, 2020",
-    text: [
-      "\"Experienced\" art exhibition by tua pen not or Pichakorn Chukiew, young fine artist from Chiang Mai. This new collection is his memoir, a journey to life reflection of pain and healing. With career background of furniture builder and fashion designer who focus on material reuse/recycle, tua pen not develops his new and unique technique for this collection by mixing construction repair materials (putty, grout, epoxy) and acrylic and oil paints in abstract expressionism style. Alongside with his concept of surface destroying and repairing, tua pen not also brought mirror-like material to represent the reflection of his memories.",
-    ],
-    images: ["/experienced-1.jpg", "/experienced-2.jpg", "/experienced-3.jpg", "/experienced-4.jpg", "/experienced-5.jpg", "/experienced-6.jpg"],
-  },
-  {
-    slug: "gardenia",
-    title: "Gardenia",
-    type: "Duo Exhibition, with Kasper Mikael Jacek",
-    venue: "Galleri Tese, Aarhus, Denmark",
-    dates: "Mar 18 - Apr 24, 2022",
-    text: [
-      "\"Gardenia\" is a phrase that both of us agree to use it as an inspiration for this series to represent garden in our perspective. In my point of view garden is a place which create inspiration and beautiful that we can live in it, your may think that garden might mean a place that have a lot of tree and flower that give a peaceful feeling but for me garden is 'where work is create which have variation of material and craving atmosphere' In which it mean garden is an art studio that I create an artwork by bringing colour, atmosphere and surrounding material to portray a beauty in my own perspective.",
-    ],
-    images: ["/gardenia-1.jpg", "/gardenia-2.jpg", "/gardenia-3.jpg", "/gardenia-4.jpg", "/gardenia-5.jpg"],
-  },
-  {
-    slug: "co-in-see",
-    title: "Co-In-See",
-    type: "Duo Exhibition, with Ray Julian",
-    venue: "The Slow, Indonesia",
-    dates: "March 22 - April 30, 2024",
-    text: [
-      "In this exhibition, we present the intriguing juxtaposition of Rai Julian and Tua pen not, each bringing their unique perspective and artistic flair to the theme of intentional parody. For them, art is not merely a commodity to be bought and sold, but a sacred expression of passion, transcending the boundaries of tradition and commerce. Yet, beyond the mere act of creation, Rai and Tua Pen Not share a deeper ethos — a belief in the transformative power of art to challenge, provoke, and ultimately, to liberate. They stand as torchbearers of artistic rebellion, steadfast in their commitment to carving out a space for themselves outside the confines of the traditional art scene, where authenticity reigns supreme and creativity knows no bounds. As visitors navigate through the exhibition, they are encouraged to ponder upon what role does parody play in challenging and reshaping our perceptions of gender, sexuality, and social constructs.",
-      "\u201cCo-In-See,\u201d originating from \u201cCoincidence,\u201d suggests not only chance but also a joint invitation for audiences to see and ponder thought-provoking questions, reflecting on satire's potential to drive social change. Using humour and irony, we're prompted to reassess our assumptions and embrace the multifaceted nature of the human experience.",
-    ],
-    images: ["/co-in-see-1.jpg", "/co-in-see-2.jpg", "/co-in-see-3.jpg", "/co-in-see-4.jpg", "/co-in-see-5.jpg"],
-  },
-    {
-    slug: "they-called-me-an-alien",
-    title: "They Called Me An Alien",
-    type: "Solo Exhibition",
-    venue: "Gallery Turn Another Round, Sendai, Japan",
-    dates: "Nov 11 - Nov 30, 2023",
-    text: [
-      "The artworks in this exhibition narrate experiences that have transitioned from one place to another. The phrase \"They call me an Alien\" is used to describe groups or individuals with unconventional ways different from traditional customs. Staying outside of old traditions might lead to discovering new things. With this concept in mind, I've created artworks for everyone to experience what's different, to perceive those distinct elements as new experiences within that space. Creating art in this exhibition, I define myself as an \"Alien\" because people from different lands might have diverse experiences. So, we should be willing to explore new perspectives, think outside the box, and embrace new impressions. My goal is to provide everyone with an experience of thinking without boundaries, and that's why I call this work \"They call me an Alien.",
-    ],
-    images: ["/theycalledmeanalien1.jpg", "/theycalledmeanalien2.jpg", "/theycalledmeanalien3.jpg"],
-  },
-    {
-    slug: "the-fig-lobby-hotel",
-    title: "The Fig Lobby Hotel",
-    type: "Collaboration — Live Painting & Restaurant Decoration",
-    venue: "The Fig Lobby Hotel, Bangkok, Thailand",
-    dates: "April 2023",
-    text: [
-      "Live painting with violin performance for the Grand Opening of The Fig Lobby Hotel. Collaboration project for \"Rad Restaurant\" decorations and glass mural painting.",
-    ],
-    images: ["/thefiglobbyhotel1.jpg", "/thefiglobbyhotel2.jpg", "/thefiglobbyhotel3.jpg", "/thefiglobbyhotel4.jpg", "/thefiglobbyhotel5.jpg"],
-  },
-    {
-    slug: "identity",
-    title: "Identity",
-    type: "Solo Exhibition",
-    venue: "Studio 94, Chiang Mai, Thailand",
-    dates: "April 5 - 30, 2025",
-    text: [
-      "We cannot deny that every individual has their own unique characteristics, and personal interests differ from one person to another. The national system also plays a role in selecting and shaping trends within its own context. Have you ever questioned why we must follow popular trends? Developing countries often imitate the trends of global superpowers. They may forget that their own originality, if nurtured within their own country, could be something truly valuable. Personal style and fashion are really interesting, whether it's about brands, origins, or media influence, these things all shape society. Developing countries keep chasing trends set by leading countries, and it never really stops. These factors directly impact society. Developing countries continue to follow the trends set by highly developed nations, with no sign of stopping. As long as leading countries dictate the direction, Thailand will struggle to rise as a leader. Foreign values hold a strong influence over developing countries, making it difficult to reach a clear conclusion.",
-    ],
-    images: ["/identity1.jpg", "/identity2.jpg", "/identity3.jpg", "/identity4.jpg", "/identity5.jpg"],
-  },
-    {
-    slug: "this-morning-in-japan",
-    title: "This Morning in Japan",
-    type: "Solo Exhibition",
-    venue: "BABABA, Tokyo & Gallery Turnaround, Sendai, Japan",
-    dates: "Oct 11 - 19 (Tokyo) / Oct 21 - Nov 2 (Sendai), 2025",
-    text: [
-      "For many Thais who grew up in the 1990s, a simple \"good morning\" held an unspoken anticipation—especially on weekend mornings. It marked the start of a cherished ritual: gathering in front of the television to greet beloved friends from far away, in the form of Japanese animation. These animated series, broadcast from Japan into Thai living rooms, were more than entertainment. They became quiet cultural envoys, carrying glimpses of tradition, seasonal festivals, everyday harmony, and a sense of community across borders. For children, these stories shaped imaginations and planted seeds of curiosity—threads of influence woven seamlessly into the narratives. Whether intentional or not, these quiet mornings became small bridges, connecting a developing nation to the soft power of a cultural giant. Today, the echoes remain—in the brands we consume, the cars we drive, the technology we use, and the food we eat. This work reflects on those early imprints, exploring how subtle cultural exchanges shape identity, aspiration, and the unseen structures of influence.",
-    ],
-    images: ["/thismorninginjapan1.jpg", "/thismorninginjapan2.jpg", "/thismorninginjapan3.jpg", "/thismorninginjapan4.jpg", "/thismorninginjapan5.jpg", "/thismorninginjapan6.jpg"],
-  },
-    {
-    slug: "live-painting-aobayama-park",
-    title: "Live Painting — We Are Always Impressed By You",
-    type: "Live Painting / Collaboration — Thai Takarazuka Festival",
-    venue: "Aobayama Park, Sendai, Japan",
-    dates: "Oct 17 - 18, 2025",
-    text: [
-      "Live painting, oil on steel, 250 × 300 cm, created on site at Aobayama Park during the Thai Takarazuka Festival, Sendai, Japan.",
-    ],
-    images: ["/livepaintingaobayama1.jpg", "/livepaintingaobayama2.jpg", "/livepaintingaobayama3.jpg", "/livepaintingaobayama4.jpg", "/livepaintingaobayama5.jpg"],
-  },
-    {
-    slug: "i-dont-understand-why-i-have-to-follow-you",
-    title: "I Don't Understand Why I Have To Follow You",
-    type: "Solo Exhibition",
-    venue: "Presented by SHENME ART project & consultancy, Shanghai, China",
-    dates: "March 2 - April 30, 2026",
-    text: [
-      "The exhibition \"I Don't Understand Why I Have To Follow You\" presents new works by Chiang Mai–based artist Pichakorn Chukiew, who works under the artistic identity Tuapennot. Since the outbreak of COVID-19, his practice has shifted from abstract explorations of inner emotion toward a direct engagement with social realities, examining the tensions between global mobility and local conditions. Working within Chiang Mai—a city deeply shaped by tourism—Tuapennot investigates how transnational brands operate not only as commodities but as symbolic markers of global modernity. As global signifiers circulate through the city, everyday life is compressed into the \"backstage\" of the tourism economy, while commodities, culture, and even historical narratives are absorbed into cycles of stimulation and consumption. Through painting, installation, and street-based practices, the artist transforms fragments of daily observation into layered visual narratives. Brand imagery, youth fashion, cartoon figures, and spontaneous text coexist within compositions marked by rough gestures and highly saturated color. Oscillating between humor and critique, the works reflect on Thailand's semi-peripheral position within global capitalism and question the persistent narrative of \"following\" the West. Rather than proposing withdrawal from global systems, Tuapennot's work intensifies the frictions already embedded within them.",
-    ],
-    images: ["/idontunderstand1.jpg", "/idontunderstand2.jpg", "/idontunderstand3.jpg", "/idontunderstand4.jpg", "/idontunderstand5.jpg"],
-  },
-  
 ];
-
 export const SERIES_ORDER: SeriesName[] = ["Silence", "Interval", "Aperture"];
 
 export const MEDIUM_BY_SERIES: Record<SeriesName, string> = {
