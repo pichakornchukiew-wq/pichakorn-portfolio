@@ -327,20 +327,7 @@ interface RawWork {
 }
 
 const RAW_WORKS: RawWork[] = [
-  { title: "Room with Closed Curtains", series: "Silence", year: 2023, dims: "142 × 178 cm", h: "h-96", seed: "pichakorn-01" },
-  { title: "Study for a Departure", series: "Silence", year: 2022, dims: "90 × 120 cm", h: "h-72", seed: "pichakorn-02" },
-  { title: "Standing Figure, No. 4", series: "Interval", year: 2021, dims: "38 × 19 × 21 cm", h: "h-80", seed: "pichakorn-03" },
-  { title: "Before the Hour", series: "Silence", year: 2023, dims: "110 × 150 cm", h: "h-64", seed: "pichakorn-04" },
-  { title: "Two Chairs, Facing", series: "Interval", year: 2020, dims: "44 × 30 × 28 cm", h: "h-96", seed: "pichakorn-05" },
-  { title: "Window, Overcast", series: "Aperture", year: 2019, dims: "40 × 50 cm", h: "h-72", seed: "pichakorn-06" },
-  { title: "The Long Corridor", series: "Silence", year: 2024, dims: "160 × 200 cm", h: "h-80", seed: "pichakorn-07" },
-  { title: "Untitled (Threshold)", series: "Interval", year: 2022, dims: "52 × 24 × 24 cm", h: "h-64", seed: "pichakorn-08" },
-  { title: "Stairwell, 6AM", series: "Aperture", year: 2020, dims: "40 × 50 cm", h: "h-96", seed: "pichakorn-09" },
-  { title: "Field Notes on Waiting", series: "Silence", year: 2021, dims: "130 × 160 cm", h: "h-72", seed: "pichakorn-10" },
-  { title: "Vessel, Unfired Form", series: "Interval", year: 2023, dims: "35 × 35 × 40 cm", h: "h-80", seed: "pichakorn-11" },
-  { title: "Coastline, No Horizon", series: "Aperture", year: 2018, dims: "40 × 60 cm", h: "h-64", seed: "pichakorn-12" },
   { title: "I Don't Understand Why I Have To Follow You", year: 2026, dims: "Dimensions on request", h: "h-96", image: "/idontunderstand4.jpg", medium: "Oil on canvas", category: "Painting", description: "Shown in the solo exhibition \"I Don't Understand Why I Have To Follow You,\" presented by SHENME ART project & consultancy, Shanghai, China, March 2 – April 30, 2026." },
-  { title: "You Know Everything, Everything Know You II", year: 2016, dims: "Dimensions on request", h: "h-72", image: "/you-know-everything-2.jpg", medium: "Acrylic on canvas", category: "Painting", description: "Shown in the duo exhibition \"You Know Everything, Everything Know You\" with Jimmie James, The Jam Factory, Bangkok, Feb 18 – Mar 27, 2016." },
   { title: "No Money No Girl", year: 2026, dims: "Dimensions on request", h: "h-96", image: "/drawingatm.jpg", medium: "Graphite and marker on paper", category: "Drawing", description: "A studio drawing of an ATM machine, part of a series of sketchbook studies observing everyday objects and consumer culture." },
   { title: "Self-Portrait Study", year: 2026, dims: "Dimensions on request", h: "h-72", image: "/drawingselfportrait.jpg", medium: "Ink and marker on paper", category: "Drawing", description: "A sketchbook self-portrait study, part of the artist's ongoing studio drawing practice." },
   { title: "Takuya", year: 2026, dims: "Dimensions on request", h: "h-80", image: "/drawingtakuya.jpg", medium: "Marker on paper", category: "Drawing", description: "A portrait study in marker, part of a series of studio drawings of friends and collaborators." },
@@ -364,7 +351,7 @@ export const WORKS: Work[] = RAW_WORKS.map((w, i) => ({
     "A continuation of the studio's long-running inquiry into stillness and duration, made over several months of returning to the same surface until the image resolved into something the artist no longer felt she had authored alone.",
 }));
 
-export const EXHIBITION_WORK_IDS = [13];
+export const EXHIBITION_WORK_IDS = [1];
 export const HERO_IMAGE = "/gallery-home-bg.jpg";
 export const CATEGORIES = ["All", "Painting", "Sculpture", "Drawing"];
 
