@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { X, ChevronLeft, ChevronRight, ArrowUpRight } from "lucide-react";
 import Reveal from "@/components/Reveal";
-import WallLabel from "@/components/WallLabel";
 import { WORKS, CATEGORIES, type Work } from "@/lib/data";
 
 export default function WorkGrid() {
@@ -66,7 +65,6 @@ export default function WorkGrid() {
               <img src={w.image} alt={w.title} className={`art-card-image ${w.heightClass}`} loading="lazy" />
               <span className="art-card-zoom">View</span>
             </button>
-            <WallLabel title={w.title} year={w.year} medium={w.medium} />
           </Reveal>
         ))}
       </div>
@@ -83,13 +81,6 @@ export default function WorkGrid() {
 
           <div className="lightbox-content">
             <img src={lightbox.image} alt={lightbox.title} className="lightbox-image" />
-            <WallLabel
-              title={lightbox.title}
-              year={lightbox.year}
-              medium={lightbox.medium}
-              series={lightbox.series}
-              align="center"
-            />
             <Link href={`/work/${lightbox.id}`} className="text-link" onClick={closeLightbox}>
               View full details <ArrowUpRight size={14} strokeWidth={1.25} />
             </Link>
